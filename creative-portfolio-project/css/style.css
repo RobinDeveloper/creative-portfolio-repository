@@ -1,0 +1,149 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.about-me-img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%; /* Set the width to 100% */
+}
+
+
+.about-me {
+    color: #333333;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+.panels-container {
+    display: flex;
+    height: 100vh; /* Full height of the screen */
+}
+
+.panel {
+    height: 100%;
+    width: 33.33%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+.panel::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for webkit browsers */
+}
+
+.panel-content {
+    padding: 20px;
+}
+
+.panel1 {
+    background-color: #9b4261; /* Change to the color you desire */
+}
+
+.panel2 {
+    background-color: #f8f8ef; /* Change to the color you desire */
+}
+
+.panel3{
+    background-color: #d0ab92;
+}
+
+.panel-content {
+    padding: 20px;
+}
+
+
+.content-item {
+    /* Existing styles */
+    pointer-events: all;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer; /* Add cursor style */
+    color: #cccccc;
+}
+
+
+.content-item h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #cccccc;
+}
+
+.content-item img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.content-item p {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #cccccc;
+}
+
+.content-item .content-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.content-item a {
+    text-decoration: none; /* Remove underlines */
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+.content-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.blog-item {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* Add additional styles for blog items */
+    color: #3e2723 ;
+}
+
+.blog-item a {
+    text-decoration: none; /* Remove underlines for links within blog items */
+    color: inherit; /* Inherit the color from the parent element */
+    color: #3e2723 ;
+}
+
+.blog-item a:hover {
+    text-decoration: none; /* Remove underlines on hover */
+    color: inherit; /* Inherit the color on hover */
+    color: #3e2723 ;
+}
+
+.blog-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    color: #3e2723 ;
+}
+
+.blog-item p {
+    color: #3e2723;
+}
