@@ -3,18 +3,18 @@
 // Example content data
 const contentData = [
     {
-        title: "Sample Title 1",
-        imageUrl: "https://via.placeholder.com/150",
-        author: "John Doe",
+        title: "The Doors",
+        imageUrl: "works/TheDoors/content/TheDoors.png",
+        author: "Robin Opheij, Niels Pauls, george, Sjoerd",
         date: "October 30, 2023",
-        htmlFileName: "https://www.example.com/article1.html"
+        htmlFileName: "works/TheDoors/TheDoors.html"
     },
     {
-        title: "Sample Title 2",
-        imageUrl: "https://via.placeholder.com/150",
-        author: "Jane Smith",
-        date: "November 5, 2023",
-        htmlFileName: "https://www.example.com/article2.html"
+        title: "Crowded streams",
+        imageUrl: "works/CrowdedStreams/content/0083.png",
+        author: "Robin Opheij",
+        date: "December 7, 2023",
+        htmlFileName: "works/CrowdedStreams/CrowdedStreams.html"
     }
     // Add more content data as needed
 ];

@@ -147,3 +147,69 @@ em, i {
 .blog-item p {
     color: #3e2723;
 }
+
+.experiences {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience, .education-item {
+    flex: 0 0 48%; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.exhibitions {
+    padding: 20px;
+}
+
+.exhibitions h2 {
+    font-size: 24px;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+.exhibition-item {
+    background-color: #fafafa; /* Change to the color you desire */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.exhibition-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3e2723;
+}
+
+.exhibition-item p {
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.email, .instagram {
+    background-color: #e0e0e0; /* Change to the color you desire */
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.email a, .instagram a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}

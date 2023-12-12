@@ -3,7 +3,7 @@ var panelContent = document.getElementById('panelContent1');
 var mediaData = [
     {
         type: 'image',
-        source: 'workTestContent/pileip.jpg',
+        source: 'content/TheDoors.png',
         alt: 'Description of image 1',
         description: 'Quick description of image 1'
     },
