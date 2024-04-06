@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #cccccc;
+
+}
+
+.panel {
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.panel::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for webkit browsers */
+}
+
+.panels-container {
+    display: flex;
+    height: 100vh; /* Full height of the screen */
+}
+
+.panel-content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.panel1 {
+    background-color: #9b4261; /* Change to the color you desire */
+}
+
+.panel2 {
+    background-color: #d0ab92; /* Change to the color you desire */
+}
+
+.panel-content {
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    color: #527c8a;
+}
+
+.info-box {
+    flex: 1 1 300px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #527c8a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #527c8a;
+}
+
+.description-box {
+    flex: 2 1 600px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #527c8a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #527c8a;
+}
+
+.tags-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    color: #527c8a;
+}
+
+.tag-box {
+    padding: 10px;
+    border: 1px solid #527c8a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #527c8a;
+}
+
+.process-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #527c8a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #527c8a;
+}
+
+.media-item {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.media-item-container {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.media-item-container img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.media-description {
+    margin-top: 10px;
+}

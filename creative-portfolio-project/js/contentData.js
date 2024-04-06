@@ -15,7 +15,22 @@ const contentData = [
         author: "Robin Opheij",
         date: "December 7, 2023",
         htmlFileName: "works/CrowdedStreams/CrowdedStreams.html"
+    },
+    {
+        title: "EmojiLang",
+        imageUrl: "works/EmojiLang/content/e779a625_1.png",
+        author: "Robin Opheij",
+        date: "March 21, 2024",
+        htmlFileName: "works/EmojiLang/EmojiLang.html"
+    },
+    {
+        title: "I am flipping in a room",
+        imageUrl: "works/FlippingInARoom/content/ApplicationFrameHost_58veIacpZS.png",
+        author: "Robin Opheij",
+        date: "October 3, 2023",
+        htmlFileName: "works/FlippingInARoom/FlippingInARoom.html"
     }
+
     // Add more content data as needed
 ];
 
