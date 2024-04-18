@@ -6,7 +6,7 @@ const originalContent1 = panelContent1.innerHTML;
 const originalContent2 = panelContent2.innerHTML;
 const originalContent3 = panelContent3.innerHTML;
 
-panelContent1.innerHTML = originalContent1.repeat(2);
+panelContent1.innerHTML = originalContent1.repeat(1);
 panelContent2.innerHTML = originalContent2.repeat(2);
 panelContent3.innerHTML = originalContent3.repeat(2);
 

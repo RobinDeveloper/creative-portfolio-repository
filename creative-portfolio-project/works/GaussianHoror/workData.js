@@ -3,14 +3,15 @@ var panelContent = document.getElementById('panelContent1');
 var mediaData = [
     {
         type: 'image',
-        source: 'content/pileip.jpg',
+        source: 'content/Unity_5daX4PQepU.png',
         alt: 'Description of image 1',
         description: 'Quick description of image 1'
     },
     {
-        type: 'youtube',
-        source: 'I6RVE0xYjoI', // Replace with your YouTube video ID
-        description: 'Quick description of YouTube video'
+        type: 'image',
+        source: 'content/Unity_R8VrrKEqzk.png',
+	alt: 'content', // Replace with your YouTube video ID
+        description: 'Quick description'
     },
     // Add more media objects as needed
 ];
@@ -32,7 +33,7 @@ mediaData.forEach(function (media) {
     } else if (media.type === 'youtube') {
         var youtubeContainer = document.createElement('div');
         youtubeContainer.innerHTML = `
-            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${media.source}" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="512" src="https://www.youtube.com/embed/${media.source}" frameborder="0" allowfullscreen></iframe>
         `;
         mediaContainer.appendChild(youtubeContainer);
     }

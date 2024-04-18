@@ -3,15 +3,23 @@ var panelContent = document.getElementById('panelContent1');
 var mediaData = [
     {
         type: 'image',
-        source: 'content/pileip.jpg',
+        source: 'content/opera_F2lwDo947f.png',
         alt: 'Description of image 1',
         description: 'Quick description of image 1'
     },
     {
-        type: 'youtube',
-        source: 'I6RVE0xYjoI', // Replace with your YouTube video ID
-        description: 'Quick description of YouTube video'
+	type: 'image',
+	source: 'content/WhatsApp Image 2023-06-15 at 01.00.24.jpg',
+	alt: 'f',
+	description: 'description'
     },
+    {
+	type: 'image',
+	source: 'content/WhatsApp Video 2023-06-15 at 01.00.28.mp4',
+	alt: 'f',
+	description: 'f'
+    }
+
     // Add more media objects as needed
 ];
 
@@ -32,7 +40,7 @@ mediaData.forEach(function (media) {
     } else if (media.type === 'youtube') {
         var youtubeContainer = document.createElement('div');
         youtubeContainer.innerHTML = `
-            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/${media.source}" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="512" src="https://www.youtube.com/embed/${media.source}" frameborder="0" allowfullscreen></iframe>
         `;
         mediaContainer.appendChild(youtubeContainer);
     }

@@ -70,7 +70,7 @@ mediaData.forEach(function (media) {
     } else if (media.type === 'youtube') {
         var youtubeContainer = document.createElement('div');
         youtubeContainer.innerHTML = `
-            <iframe width="100%%" height="512px" src="https://www.youtube.com/embed/${media.source}" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%%" height="512" src="https://www.youtube.com/embed/${media.source}" frameborder="0" allowfullscreen></iframe>
         `;
         mediaContainer.appendChild(youtubeContainer);
     }
