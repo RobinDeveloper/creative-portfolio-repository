@@ -9,7 +9,7 @@ var mediaData = [
     },
     {
         type: 'youtube',
-        source: 'I6RVE0xYjoI', // Replace with your YouTube video ID
+        source: 'SECVPoOeh7k', // Replace with your YouTube video ID
         description: 'Quick description of YouTube video'
     },
     // Add more media objects as needed
