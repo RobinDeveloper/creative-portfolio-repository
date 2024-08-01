@@ -4,7 +4,7 @@
 const contentData = [
     {
 	title: "Ever heard of crashing signals?",
-	imageUrl: "",
+	imageUrl: "works/NXP/Content/poster.jpg",
 	author: "Robin Opheij",
 	data: "7-8 June, 2024",
 	htmlFileName: "works/NXP/NXP.html"
