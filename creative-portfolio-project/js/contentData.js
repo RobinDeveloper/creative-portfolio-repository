@@ -3,6 +3,13 @@
 // Example content data
 const contentData = [
     {
+	title: "Ever heard of crashing signals?",
+	imageUrl: "",
+	author: "Robin Opheij",
+	data: "7-8 June, 2024",
+	htmlFileName: "works/NXP/NXP.html"
+    },
+    {
         title: "The Doors",
         imageUrl: "works/TheDoors/content/TheDoors.png",
         author: "Robin Opheij, Niels Pauls, george, Sjoerd",
